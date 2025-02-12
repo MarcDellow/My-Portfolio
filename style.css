@@ -1,9 +1,9 @@
 
  /* Top navigation */
 
-nav ul{
+nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
   list-style-type: none;
@@ -82,7 +82,23 @@ nav ul li a:hover {
  /* Social Media Links */
 
  /*  Projects grid  */
+
  
+a {text-decoration: none;}
+
+.pro1 {
+  background-color: #eeda29;
+  padding: 20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 100px;
+  margin: auto;
+  
+
+
+}
 
 .grid-container {
   display: grid;
@@ -190,7 +206,9 @@ h1{
   font-size: 32px;
   color: #000000;
   text-align: center;
-}  
+ }
+
+  
 
 
  /* h2 style */
@@ -308,6 +326,4 @@ input[type=submit] {
 .grid-item2 { grid-column: 1; grid-row: 3; }
 .grid-item3 { grid-column: 1; grid-row: 2; }
 .grid-item4 { grid-column: 1; grid-row: 4; }
-
-
 }
